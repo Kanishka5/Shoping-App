@@ -20,7 +20,7 @@ const Item = ({ id, name, image, cost, type, addFunc }) => {
         <p>Cost:{cost}</p>
       ]}
     >
-      <Meta title={name} description={type} description={type} />
+      <Meta title={name} description={type} />
     </Card>
   );
 };

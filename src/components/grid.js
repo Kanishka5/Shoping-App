@@ -1,8 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
-import { Button, Menu, Dropdown, Icon } from "antd";
+import { Button } from "antd";
 import Item from "./item";
-// import Cart from "./cart";
 
 class Grid extends React.Component {
   constructor(props) {
@@ -183,7 +182,7 @@ class Grid extends React.Component {
                     lg={{ span: 7, offset: 1 }}
                     style={{ padding: 10 }}
                   >
-                    <p style={{ marginTop: "1em" }}>Units: x{cart.units}</p>
+                    <p style={{ marginTop: "1em" }}>Quantity: x{cart.units}</p>
                   </Col>
                   <Col
                     xs={{ span: 22, offset: 1 }}

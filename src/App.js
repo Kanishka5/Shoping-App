@@ -5,7 +5,7 @@ import { Layout } from "antd";
 import Grid from "./components/grid";
 import Nav from "./components/navbar";
 
-const { Header, Footer, Content } = Layout;
+const { Header, Content } = Layout;
 
 function App() {
   return (

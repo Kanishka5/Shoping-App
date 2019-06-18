@@ -1,8 +1,6 @@
 import React from "react";
 import { Menu } from "antd";
 
-import Cart from "./cart";
-
 const Nav = () => {
   return (
     <Menu
